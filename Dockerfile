@@ -6,4 +6,4 @@ RUN useradd -r supervisor
 
 COPY config/supervisor/*.conf /etc/supervisor/conf.d/
 
-CMD /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf 
+CMD /usr/bin/supervisord -n -c /etc/supervisor/supervisord.conf
